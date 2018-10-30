@@ -17,11 +17,11 @@ var color = d3.scaleLinear().domain([0, 1/4*5000000, 2/4*5000000, 3/4*5000000, 5
 // sets x and y scale to determine size of visible boxes
 var x = d3.scaleLinear()
     .domain([0, width])
-    .range([0, width]);
+    .range([1, width]);
 
 var y = d3.scaleLinear()
     .domain([0, height])
-    .range([1, height]);
+    .range([2, height]);
 
 var treemap = d3.treemap()
         .size([width, height])
