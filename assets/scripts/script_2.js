@@ -17,7 +17,7 @@ var color = d3.scaleLinear().domain([0, 1/4*5000000, 2/4*5000000, 3/4*5000000, 5
 // sets x and y scale to determine size of visible boxes
 var x = d3.scaleLinear()
     .domain([0, width])
-    .range([2, width]);
+    .range([0, width]);
 
 var y = d3.scaleLinear()
     .domain([0, height])
