@@ -21,7 +21,7 @@ var x = d3.scaleLinear()
 
 var y = d3.scaleLinear()
     .domain([0, height])
-    .range([0, height]);
+    .range([1, height]);
 
 var treemap = d3.treemap()
         .size([width, height])
