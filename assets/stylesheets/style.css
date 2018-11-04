@@ -72,15 +72,15 @@ nav ul li a {
 
 body {
     font-size: 14px;
-    font-family: "Muli", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 text{
-    font-family: "Muli", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !IMPORTANT;
+    font-family: "Times New Roman", Times, serif !IMPORTANT;
 }
 
 label{
-  font-family: "Muli", "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !IMPORTANT;
+  font-family: "Times New Roman", Times, serif !IMPORTANT;
      border-radius: 5px !IMPORTANT;
 }
 
