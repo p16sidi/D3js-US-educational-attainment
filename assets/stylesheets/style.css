@@ -93,7 +93,7 @@ label{
 
   display: inline-block;
   background-color: #00FFFF;
-  padding: 6px 14px;
+  padding: 6px 11px;
   font-family: "Courier New";
   font-size: 22px;
   cursor: pointer;
@@ -110,7 +110,7 @@ a, a:visited, a:hover {
 }
 
 textarea, input {
-    font-family: "Courier New", Courier;
+    font-family: "Courier New", Courier, monospace;
 	-webkit-transition: border .5s ease-in-out;
   transition: border .5s ease-in-out;
 }
